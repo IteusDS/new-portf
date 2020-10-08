@@ -10084,7 +10084,8 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid;
+    border-color: var(--red);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10191,7 +10192,7 @@ background-color: var(--red);
 ::-webkit-scrollbar-thumb {
   background: var(--red); 
   border-radius: 4px;
-  width: 6px;
+  width: 6ropx;
   transition: all .4s ease;
 }
 ::-webkit-scrollbar-track {
