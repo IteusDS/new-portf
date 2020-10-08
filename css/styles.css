@@ -148,8 +148,24 @@ sup {
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
+
 }
 
+.coach-01{
+  text-align: center;
+  margin: 5px auto;
+
+  font-size: 20px;
+  font-style: italic;
+}
+
+.coach-01 strong::before{
+  content: '';
+	display: block;
+	width: 60px;
+	height: 4px;
+	background: gray;
+	margin: 10px auto;}
 sub {
   bottom: -0.25em;
 }
